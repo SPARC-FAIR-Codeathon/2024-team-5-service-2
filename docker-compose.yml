@@ -18,10 +18,10 @@ services:
         io.simcore.contact: '{"contact":"appukuttan.shailesh@gmail.com"}'
         io.simcore.inputs: '{"inputs":{"input_1":{"displayOrder":1.0,"label":"source
           .vtk file","description":"vtk file to be converted","type":"data:*/*"}}}'
-        io.simcore.outputs: '{"outputs":{"output_1":{"displayOrder":1.0,"label":".stl
-          file","description":"Converted .stl file","type":"data:*/*","fileToKeyMap":{"scaffold.stl":"output_1"}},"output_2":{"displayOrder":2.0,"label":".obj
-          file","description":"Converted .obj file","type":"data:*/*","fileToKeyMap":{"scaffold.obj":"output_2"}}}}'
-        org.label-schema.build-date: 2024-08-12T18:42:25+0000
+        io.simcore.outputs: '{"outputs":{"output_1":{"displayOrder":1.0,"label":".obj
+          file","description":"Converted .obj file","type":"data:*/*","fileToKeyMap":{"scaffold.obj":"output_1"}},"output_2":{"displayOrder":2.0,"label":".stl
+          file","description":"Converted .stl file","type":"data:*/*","fileToKeyMap":{"scaffold.stl":"output_2"}}}}'
+        org.label-schema.build-date: 2024-08-12T19:47:21+0000
         org.label-schema.schema-version: '1.0'
         org.label-schema.vcs-ref: ''
         org.label-schema.vcs-url: ''

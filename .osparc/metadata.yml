@@ -20,16 +20,17 @@ inputs:
 outputs:
   output_1:
     displayOrder: 1
-    label: .stl file
-    description: Converted .stl file
-    type: data:*/*
-    fileToKeyMap:
-      scaffold.stl: output_1
-  output_2:
-    displayOrder: 2
     label: .obj file
     description: Converted .obj file
     type: data:*/*
     fileToKeyMap:
-      scaffold.obj: output_2
+      scaffold.obj: output_1
+  output_2:
+    displayOrder: 2
+    label: .stl file
+    description: Converted .stl file
+    type: data:*/*
+    fileToKeyMap:
+      scaffold.stl: output_2
+
   
