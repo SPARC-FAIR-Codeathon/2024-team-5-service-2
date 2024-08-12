@@ -15,7 +15,6 @@ inputs:
     displayOrder: 1
     label: source .vtk file
     description: vtk file to be converted
-    type: string
     type: data:*/*
   
 outputs:

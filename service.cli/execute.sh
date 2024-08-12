@@ -27,6 +27,14 @@ echo "INPUT_1:", $INPUT_1
 # and use it as the input file
 INPUT_FILE=$(ls -1 ${INPUT_FOLDER} | grep -v 'inputs.json' | head -n 1)
 echo "INPUT_FILE:", $INPUT_FILE
+
+echo "Input folder content:"
+ls -al "${INPUT_FOLDER}"
+echo "Output folder content:"
+ls -al "${OUTPUT_FOLDER}"
+echo "PWD folder content:"
+ls -al
+
 python main.py $INPUT_FOLDER/$INPUT_FILE
 
 # then retrieve the output and move it to the $OUTPUT_FOLDER
