@@ -10,7 +10,7 @@ services:
         io.simcore.description: '{"description":"Module to convert .vtk files to their
           .stl and .oents"}'
         io.simcore.key: '{"key":"simcore/services/comp/vtk-converter"}'
-        io.simcore.version: '{"version":"0.1.0"}'
+        io.simcore.version: '{"version":"0.1.1"}'
         io.simcore.integration-version: '{"integration-version":"1.0.0"}'
         io.simcore.type: '{"type":"computational"}'
         io.simcore.authors: '{"authors":[{"name":"Shailesh Appukuttan","email":"appukuttan.shailesh@gmail.com","affiliation":"INT,
@@ -21,11 +21,11 @@ services:
         io.simcore.outputs: '{"outputs":{"output_1":{"displayOrder":1.0,"label":".obj
           file","description":"Converted .obj file","type":"data:*/*","fileToKeyMap":{"scaffold.obj":"output_1"}},"output_2":{"displayOrder":2.0,"label":".stl
           file","description":"Converted .stl file","type":"data:*/*","fileToKeyMap":{"scaffold.stl":"output_2"}}}}'
-        org.label-schema.build-date: 2024-08-12T19:47:21+0000
+        org.label-schema.build-date: 2024-08-22T09:27:02+0000
         org.label-schema.schema-version: '1.0'
         org.label-schema.vcs-ref: ''
         org.label-schema.vcs-url: ''
         simcore.service.restart-policy: no-restart
         simcore.service.settings: '[{"name":"Resources","type":"Resources","value":{"Limits":{"NanoCPUs":1000000000,"MemoryBytes":2147483648}}}]'
       target: production
-    image: simcore/services/comp/vtk-converter:0.1.0
+    image: simcore/services/comp/vtk-converter:0.1.1

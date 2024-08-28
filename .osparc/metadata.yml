@@ -2,21 +2,20 @@ name: VTK Converter
 key: simcore/services/comp/vtk-converter
 type: computational
 integration-version: 1.0.0
-version: 0.1.0
+version: 0.1.1
 description: Module to convert .vtk files to their .stl and .oents
 contact: appukuttan.shailesh@gmail.com
 thumbnail: https://github.com/ITISFoundation/osparc-assets/blob/cb43207b6be2f4311c93cd963538d5718b41a023/assets/default-thumbnail-cookiecutter-osparc-service.png?raw=true
 authors:
-  - name: Shailesh Appukuttan
-    email: appukuttan.shailesh@gmail.com
-    affiliation: INT, Aix-Marseille University, France
+- name: Shailesh Appukuttan
+  email: appukuttan.shailesh@gmail.com
+  affiliation: INT, Aix-Marseille University, France
 inputs:
   input_1:
     displayOrder: 1
     label: source .vtk file
     description: vtk file to be converted
     type: data:*/*
-  
 outputs:
   output_1:
     displayOrder: 1
@@ -32,5 +31,3 @@ outputs:
     type: data:*/*
     fileToKeyMap:
       scaffold.stl: output_2
-
-  
